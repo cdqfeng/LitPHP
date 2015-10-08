@@ -18,7 +18,7 @@ LitPHP是一款轻量级PHP开发框架，基于MVC架构，采用PHP+Apache+sma
 
 *把框架部署在web根目录下，
 *开启apacherewrite_module modules/mod_rewrite.so模块，
-*访问http://localhost/web根目录/litphp/'
+*访问http://localhost/litphp/'
 *页面出现 '欢迎使用LitPHP框架! :)'即是部署成功。
 
 **********************************************************************************
