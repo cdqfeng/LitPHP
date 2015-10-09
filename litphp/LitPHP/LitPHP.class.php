@@ -93,27 +93,27 @@ class LitPHP {
 	//创建应用目录下的文件夹
 	public function createFile() {
 
-		if(!file_exists(APP_PATH."/controller")) {
-			mkdir(APP_PATH."/controller");
+		if(!file_exists(APP_PATH."controller")) {
+			mkdir(APP_PATH."controller");
 		}
-		if(!file_exists(APP_PATH."/controller/IndexController.class.php")) {
+		if(!file_exists(APP_PATH."controller/IndexController.class.php")) {
 			$data="<?php\r\n\r\nnamespace ".basename(APP_PATH)."\\controller;\r\nuse LitPHP\\Controller;\r\n\r\nclass IndexController extends Controller {\r\n\r\n\tpublic function index() {\r\n\r\n\t\theader('Content-Type:text/html;charset=utf-8');\r\n\t\techo '<h1>欢迎使用LitPHP框架! :)</h1>';\r\n\t}\r\n}";
-			file_put_contents(APP_PATH."/controller/IndexController.class.php",$data);
+			file_put_contents(APP_PATH."controller/IndexController.class.php",$data);
 		}
-		if(!file_exists(APP_PATH."/model")) {
-			mkdir(APP_PATH."/model");
+		if(!file_exists(APP_PATH."model")) {
+			mkdir(APP_PATH."model");
 		}
-		if(!file_exists(APP_PATH."/view")) {
-			mkdir(APP_PATH."/view");
+		if(!file_exists(APP_PATH."view")) {
+			mkdir(APP_PATH."view");
 		}
-		if(!file_exists(APP_PATH."/view/compile")) {
-			mkdir(APP_PATH."/view/compile");
+		if(!file_exists(APP_PATH."view/compile")) {
+			mkdir(APP_PATH."view/compile");
 		}
-		if(!file_exists(APP_PATH."/view/cache")) {
-			mkdir(APP_PATH."/view/cache");
+		if(!file_exists(APP_PATH."view/cache")) {
+			mkdir(APP_PATH."view/cache");
 		}
-		if(!file_exists(APP_PATH."/conf")) {
-			mkdir(APP_PATH."/conf");
+		if(!file_exists(APP_PATH."conf")) {
+			mkdir(APP_PATH."conf");
 		}
 
 	}
