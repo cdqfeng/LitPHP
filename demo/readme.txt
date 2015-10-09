@@ -1,7 +1,7 @@
-#demoËµÃ÷
+#demoè¯´æ˜
 
-* ½«¸ÃÎÄ¼ş·ÅÔÚlitphpÄ¿Â¼ÏÂ¼´¿É¡£
-* ¸ÃdemoÕ¹Ê¾ÁËÄ£°æÀà£¬·ÖÒ³Àà£¬ÑéÖ¤ÂëÀàµÄÊ¹ÓÃ¡£
-* Ä£°æÀàdemoÕ¹Ê¾Ğè·ÃÎÊ 'http://localhost/litphp'¡£
-* ·ÖÒ³ÀàdemoÕ¹Ê¾Ğè·ÃÎÊ 'http://localhost/litphp/index/page'¡£
-* ÑéÖ¤ÂëÀàdemoÕ¹Ê¾Ğè·ÃÎÊ 'http://localhost/litphp/index/verify'¡£
+* å°†è¯¥æ–‡ä»¶æ”¾åœ¨litphpç›®å½•ä¸‹å³å¯ã€‚
+* è¯¥demoå±•ç¤ºäº†æ¨¡ç‰ˆç±»ï¼Œåˆ†é¡µç±»ï¼ŒéªŒè¯ç ç±»çš„ä½¿ç”¨ã€‚
+* æ¨¡ç‰ˆç±»demoå±•ç¤ºéœ€è®¿é—® 'http://localhost/litphp/demo'ã€‚
+* åˆ†é¡µç±»demoå±•ç¤ºéœ€è®¿é—® 'http://localhost/litphp/demo/index/page'ã€‚
+* éªŒè¯ç ç±»demoå±•ç¤ºéœ€è®¿é—® 'http://localhost/litphp/demo/index/verify'ã€‚
